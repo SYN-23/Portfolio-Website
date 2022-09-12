@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>Portfolio | SAYAN DAS</title>
     <link rel="stylesheet" href="menue.css">
+    
     <style>
         .profile_picture {
           width: 200px; 
@@ -78,9 +79,15 @@
           margin-right: 130px;
           margin-block-start: 0;
         }
+         .br{
+            display: none;
+        } 
         @media (max-width:1200px) {
+        .toggle_button{
+            display: flex;
+        }
         .calcu_img{
-         margin-left: 420px;
+         margin-left: 550px;
         }
         .graph_img1{
          margin-left: 100px;
@@ -95,6 +102,64 @@
         float:right;
         margin-right: 430px;
     }
+}@media (max-width:400px){
+   
+    .profile_picture{
+        margin-left: 50px;
+        width:150px;
+    }
+    .hi{
+            margin-top: 210px;
+            margin-left: 230px;
+             font-size: 70px;
+            }
+            .intro{
+                margin-left: 230px;
+                font-size: 22px;
+                width: 100%;
+            }
+            label.logo{
+                margin-left:50px ;
+            }
+            label.logo_project{
+                margin-left: 50px; 
+                font-size: 30px;
+            }
+            .text{
+                width: 160%;
+                font-size:22px ;
+                margin-left: 60px;
+            }
+            .calcu_img{
+                margin-left: 190px;
+                width: 70%;
+            }
+            .hr{
+                display: none;
+            }
+            .br{
+                width: 190%;
+                display: block;
+                
+            }
+            .text_fft{
+               width: 160%;
+                font-size:22px ;
+                margin-left: 60px;
+            }
+            .graph_img1{
+                width: 120%;
+            }
+            .graph_img2{
+                width:120%;
+                margin-top: 40px;
+                margin-right: -180px;
+            }
+            sl{
+        
+        margin-right: -230px;
+            }
+            
 }
 
 
@@ -107,7 +172,10 @@
     
     
     <nav>
+        
         <label class="logo">Sayan Das</label>
+        
+
     <ul>
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="#Project">Projects</a></li>
@@ -124,8 +192,11 @@
       from Kolkata,a B.Tech Electrical Engineer.  <br>
     Currently not getting any job so creating this website.</p>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <hr><br><br>
+    <br><br><br>
+    <div class ="br"><hr></div> 
+    <div class="hr"><br><br><br><br><br><br><br><br><br></div>
+    <div class="hr"><hr></div>
+    <br><br>
     <section class="Project_section" id="Project">
         <div class="new project">
             <label class="logo_project">CalCu</label>
@@ -139,7 +210,8 @@
     </section>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br>
-    <hr><br><br>
+    <div class="hr"><hr></div>
+    <br><br>
     <label class="logo_project">Low Impedence Fault</label>
     <p class="text_fft">Application of FFT in Detection of Low Impedance Faults <br>
                     in Power system Network for Different values of Ground <br>
@@ -151,7 +223,9 @@
             <img class="graph_img2" src="graph2.png" alt="">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br>
-    <hr><br><br>
+    <div class ="br"><hr></div>
+    <div class="hr"><hr></div>
+    <br><br>
     
     <nav>
         <label class="logo_project">Contact</label>
