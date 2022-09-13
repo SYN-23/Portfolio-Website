@@ -96,9 +96,9 @@ sl{
                
             
         }
-        @media(max-width:390px){
+        @media(max-width:400px){
             ul{
-                margin-right:-320px ;
+                margin-right:-260px ;
             }
         }
         
