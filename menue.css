@@ -64,7 +64,7 @@ label.logo_project{
 }
 sl{
     float:right;
-    margin-right: 800px;
+    margin-right: 1200px;
     }
     sl li{
         list-style: none;
@@ -81,13 +81,17 @@ sl{
          sl li  :hover{
         color:rgb(197, 173, 33);
          }
-
+         /* @media(max-width:420px){
+            ul{
+                margin-right: -500px;
+            }
+         } */
          
 
-        @media (max-width:400px){
+         @media (max-width:480px){
             
             ul {
-               margin-right: -260px;
+               margin-right: -390px;
                 }
                
             
