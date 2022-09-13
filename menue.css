@@ -96,7 +96,7 @@ sl{
                
             
         }
-        @media(max-width:340px){
+        @media(max-width:390px){
             ul{
                 margin-right:-320px ;
             }
