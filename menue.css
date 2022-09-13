@@ -91,10 +91,16 @@ sl{
          @media (max-width:480px){
             
             ul {
-               margin-right: -390px;
+               margin-right: -380px;
                 }
                
             
         }
+        @media(max-width:340px){
+            ul{
+                margin-right:-320px ;
+            }
+        }
+        
         
   
